@@ -1,0 +1,47 @@
+body{
+    
+    background-color: pink;
+}
+h1{
+    font-size: 50pt;
+    color: white
+}
+
+h1:hover {
+    color: rgb(0, 0, 0);
+}
+
+header {
+    border: 10px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    text-align: center;
+    width: 400 px;
+}
+
+p {
+    color: white;
+    font-size: 44pt;
+    line-height: 100%;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+
+p:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+#list{
+    
+    color: white;
+    font-size: 44pt;
+    line-height: 100%;
+    margin: 0 auto;
+    width: 800px;
+}
+
+#list:hover {
+    color: black;
+
+}

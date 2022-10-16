@@ -1,0 +1,121 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color:azure;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: rgb(150, 105, 192);
+    color:azure;
+    
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+    color:azure;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#backround {
+    height: 725px;
+    background-color: rgb(150, 105, 192);
+}
+body {
+    background-color: rgb(150, 105, 192);
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(150, 105, 192);
+}
+.book, .join {
+    background-color: rgb(150, 105, 192);
+    color:azure;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover {
+    background-color: rgb(150, 105, 192);
+    color: black
+}
+.msg {
+    background-color: rgb(150, 105, 192);
+    color:azure;
+    padding-bottom: 15px;
+}
+.msg h2{
+    color:azure;
+}
+.msg p{
+    color:azure;
+}
+footer {
+    background-color: rgb(150, 105, 192);
+    color:azure;
+    padding: 25px 50px
+}
+footer .social img {  
+    padding-top: 15px;
+    margin-top: 200px;
+}
+    footer a {
+    color:azure;
+    text-decoration: none;
+}
+footer a:hover {
+    color:black;
+}
+footer p{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+footer p:hover{
+    text-decoration: underline;
+}
+home.title {
+    color:azure;
+}
+.logo{
+    width: 80px;
+}
+#hero-img{
+    width:100%;
+}
+.icon{
+    width:80px;
+    padding-top: 10px;
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+  }
+  h2 {
+    margin: 0;
+  }
+  #logo_link {   
+    padding-top: 5px;
+  }
+  .rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+  }
+  .card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}

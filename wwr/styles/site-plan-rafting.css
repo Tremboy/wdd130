@@ -4,30 +4,30 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=oswald:ital,wght@0,400;0,700;1,400&display=swap');
 
 /*this changes the backround color of the page*/
-body {background-color: rgb(156, 209, 205);}
+body {background-color: #f5f2de;}
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #8c3994   ;
-  --secondary-color: #e956e1 ;
-  --accent1-color: #2533b4;
-  --accent2-color: rgb(61, 15, 75);
+  --primary-color: #66462C   ;
+  --secondary-color: #726953 ;
+  --accent1-color: white;
+  --accent2-color: black;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
   --paragraph-font: oswald, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #8c3994;  /* headlines on a white background */ 
+  --headline-color-on-white: #66462C;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #8c3994; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #66462C   ; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #8c3994  ;
+  --paragraph-background-color: #66462C;
   --nav-link-color: white;
-  --nav-background-color: #8c3994;
+  --nav-background-color: #66462C;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #8c3994;
-}
+  --nav-hover-background-color: #76877D;
+}   
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
@@ -77,7 +77,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: #f5f2de;
 }
 .colors td{
   width: 25%;
@@ -138,17 +138,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #ccc;
+  background-color: #66462C;
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: #ccc;
+  background-color: #66462C;
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: #ccc;
+  background-color: #66462C;
   line-height: 3em;
 }
 .top {
